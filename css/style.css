@@ -9887,3 +9887,22 @@ textarea.form-control {
     height: 200px;
   }
 }
+
+.iconosContacto{
+  font-size: 34px;
+  transition: 0.4s all;
+}
+
+.iconosContacto:hover{
+  color: white;
+  transition: 0.4s all;
+}
+
+.textContact{
+  transition: 0.4s all;
+}
+
+.textContact:hover{
+  color: black;
+  transition: 0.4s all;
+}
