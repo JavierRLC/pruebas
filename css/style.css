@@ -11623,9 +11623,9 @@ a.text-dark:focus {
     text-decoration: underline;
   }
 
-  abbr[title]::after {
+  /* abbr[title]::after {
     content: " ("attr(title) ")";
-  }
+  } */
 
   pre {
     white-space: pre-wrap !important;
