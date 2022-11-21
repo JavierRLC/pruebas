@@ -14245,7 +14245,7 @@ textarea.form-control {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url(./../images/imgazar/60112553_672886666482613_2844228610150105088_n.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url(./../images/imgazar/barberparallax.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
