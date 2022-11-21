@@ -14212,15 +14212,7 @@ textarea.form-control {
   filter: brightness(90%);
 }
 
-.testimonios-text {
-  height: 150px;
-}
 
-@media (min-width: 560px) {
-  .testimonios-text {
-    height: 200px;
-  }
-}
 
 .iconosContacto {
   font-size: 34px;
