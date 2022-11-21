@@ -14240,3 +14240,66 @@ textarea.form-control {
   color: black;
   transition: 0.4s all;
 }
+
+
+/* Call To Action Section
+--------------------------------*/
+#call-to-action {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url(./../images/imgazar/60112553_672886666482613_2844228610150105088_n.jpg) fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+#call-to-action h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#call-to-action p {
+  color: #fff;
+}
+
+#call-to-action .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#call-to-action .cta-btn:hover {
+  background: #B5A291;
+  border: 2px solid #B5A291;
+}
+
+#logoInsta{
+  filter: brightness(70%);
+  transition: all ease-in-out 0.3s;
+  width: 64px;
+  
+}
+
+#logoInsta:hover{
+  filter: brightness(100%);
+  transition: all ease-in-out 0.3s;
+}
+
+#logoFaceb{
+  filter: brightness(70%);
+  transition: all ease-in-out 0.3s;
+  width: 64px;
+  
+}
+
+#logoFaceb:hover{
+  filter: brightness(100%);
+  transition: all ease-in-out 0.3s;
+}
