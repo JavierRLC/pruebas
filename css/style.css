@@ -14241,9 +14241,10 @@ textarea.form-control {
   transition: 0.4s all;
 }
 
-.mapa{
+.mapa{/* 
   padding-right: 0px;
-  padding-left: 0px;
+  padding-left: 0px; */
+  width: 100%;
 }
 
 /* Call To Action Section
