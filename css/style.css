@@ -14212,17 +14212,18 @@ textarea.form-control {
 }
 
 .iconosContacto {
-  font-size: 34px;
+  font-size: 40px;
   transition: 0.4s all;
 }
 
 .iconosContacto:hover {
-  color: white;
+  color: black;
   transition: 0.4s all;
 }
 
 .textContact {
   transition: 0.4s all;
+  color: #858484;
 }
 
 .textContact:hover {
@@ -14230,6 +14231,20 @@ textarea.form-control {
   transition: 0.4s all;
 }
 
+.linksFooter {
+  transition: 0.4s all;
+  color: #c2c2ab!important;
+}
+
+.linksFooter:hover {
+  color: #bf925b!important;
+  transition: 0.4s all;
+}
+
+.mapa{
+  padding-right: 0px;
+  padding-left: 0px;
+}
 
 /* Call To Action Section
 --------------------------------*/
@@ -14270,25 +14285,25 @@ textarea.form-control {
 }
 
 #logoInsta{
-  filter: brightness(70%);
+  filter: brightness(90%);
   transition: all ease-in-out 0.3s;
   width: 64px;
   
 }
 
 #logoInsta:hover{
-  filter: brightness(100%);
+  filter: brightness(120%);
   transition: all ease-in-out 0.3s;
 }
 
 #logoFaceb{
-  filter: brightness(70%);
+  filter: brightness(90%);
   transition: all ease-in-out 0.3s;
   width: 64px;
   
 }
 
 #logoFaceb:hover{
-  filter: brightness(100%);
+  filter: brightness(120%);
   transition: all ease-in-out 0.3s;
 }
