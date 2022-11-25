@@ -1,9 +1,4 @@
-/**
-* Template Name: BizPage - v3.2.1
-* Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function($) {
   "use strict";
 
@@ -16,7 +11,7 @@
     }
   });
 
-  // Back to top button
+  // Vuelta arriba
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
@@ -31,7 +26,7 @@
     return false;
   });
 
-  // Smooth scroll for the navigation menu and links with .scrollto classes
+  // Navegacion suave
   var scrolltoOffset = $('#header').outerHeight() - 17;
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -64,7 +59,7 @@
     }
   });
 
-  // Activate smooth scroll on page load with hash links in the url
+  // Activar navegacion suave
   $(document).ready(function() {
     if (window.location.hash) {
       var initial_nav = window.location.hash;
@@ -77,7 +72,7 @@
     }
   });
 
-  // Mobile Navigation
+  // Navegacion movil
   if ($('.nav-menu').length) {
     var $mobile_nav = $('.nav-menu').clone().prop({
       class: 'mobile-nav d-lg-none'
@@ -112,7 +107,7 @@
     $(".mobile-nav, .mobile-nav-toggle").hide();
   }
 
-  // Header scroll class
+  // Cabecero navegacion
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
@@ -125,7 +120,7 @@
     $('#header').addClass('header-scrolled');
   }
 
-  // Navigation active state on scroll
+  // Navegacion control 
   var nav_sections = $('section');
   var main_nav = $('.nav-menu, .mobile-nav');
 
@@ -148,7 +143,7 @@
     });
   });
 
-  // Intro carousel
+  // Introduccion carousel
   var introCarousel = $(".carousel");
   var introCarouselIndicators = $(".carousel-indicators");
   introCarousel.find(".carousel-inner").children(".carousel-item").each(function(index) {
@@ -162,7 +157,7 @@
     $(this).find('p, .btn-get-started').addClass('animate__animated animate__fadeInUp');
   });
 
-  // Skills section
+  // Seccion de habilidades
   $('#skills').waypoint(function() {
     $('.progress .progress-bar').each(function() {
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
@@ -171,13 +166,13 @@
     offset: '80%'
   });
 
-  // jQuery counterUp (used in Facts section)
+  // jQuery Contador 
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
     time: 1000
   });
 
-  // Porfolio isotope and filter
+  // Filtro de servicios
   var portfolioIsotope = $('.portfolio-container').isotope({
     itemSelector: '.portfolio-item',
     layoutMode: 'fitRows'
@@ -193,12 +188,12 @@
     aos_init();
   });
 
-  // Initiate venobox (lightbox feature used in portofilo)
+  // Inicializacion de venobox
   $(document).ready(function() {
     $('.venobox').venobox();
   });
 
-  // Clients carousel (uses the Owl Carousel library)
+  // Carrusel de clientes
   $(".clients-carousel").owlCarousel({
     autoplay: true,
     dots: true,
@@ -216,7 +211,7 @@
     }
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
+  // Carrusel de opiniones
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
     dots: true,
@@ -224,7 +219,7 @@
     items: 1
   });
 
-  // Portfolio details carousel
+  // Carrusel de detalles
   $(".portfolio-details-carousel").owlCarousel({
     autoplay: true,
     dots: true,
@@ -232,7 +227,7 @@
     items: 1
   });
 
-  // Init AOS
+  // Inicializa AOS
   function aos_init() {
     AOS.init({
       duration: 1000,
@@ -243,7 +238,7 @@
     aos_init();
   });
 
-    // servicios isotope and filter
+    // Servicios isotope y filtros
     var serviciosIsotope = $('.servicios-container').isotope({
       itemSelector: '.servicios-item',
       layoutMode: 'fitRows'
@@ -259,7 +254,7 @@
       aos_init();
     });
   
-    // servicios details carousel
+    // Carrusel de detalles de servicios
     $(".servicios-details-carousel").owlCarousel({
       autoplay: true,
       dots: true,
