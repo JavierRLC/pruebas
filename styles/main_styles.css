@@ -9,9 +9,6 @@
 		url(../font/edwardian_script_itc.otf) format('opentype');
 }
 
-/*********************************
-2. Body and some general stuff
-*********************************/
 
 * {
 	margin: 0;
@@ -44,7 +41,7 @@ ul {
 
 p {
 	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.875;
 	font-weight: 400;
 	color: #636363;
@@ -287,7 +284,7 @@ section {
 
 .button a {
 	display: block;
-	font-size: 18px;
+	font-size: 20px;
 	color: #b49383;
 	line-height: 44px;
 }
@@ -371,7 +368,7 @@ section {
 }
 
 .main_nav ul li a {
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 700;
 	color: #FFFFFF;
 	text-transform: uppercase;
@@ -388,7 +385,7 @@ section {
 	padding-right: 20px;
 	text-align: center;
 	border: solid 2px #FFFFFF;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 700;
 	color: #FFFFFF;
 }
@@ -428,7 +425,7 @@ section {
 .menu_hamburger {
 	display: block;
 	position: relative;
-	width: 12px;
+	width: 23px;
 	height: 12px;
 }
 
@@ -448,15 +445,15 @@ section {
 }
 
 .line_1 {
-	top: 0px;
+	top: -2pxpx;
 }
 
 .line_2 {
-	top: 5px;
+	top: 7px;
 }
 
 .line_3 {
-	top: 10px;
+	top: 14px;
 }
 
 .hamburger.active .line_1 {
@@ -549,7 +546,7 @@ section {
 	padding-right: 20px;
 	text-align: center;
 	border: solid 2px #FFFFFF;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 700;
 	color: #FFFFFF;
 	white-space: nowrap;
@@ -918,14 +915,14 @@ section {
 .sig_content_list ul li:not(:last-child)::after {
 	display: inline-block;
 	content: '/';
-	font-size: 16px;
+	font-size: 20px;
 	color: #636363;
 	margin-left: 5px;
 	margin-right: 5px;
 }
 
 .sig_content_list ul li {
-	font-size: 16px;
+	font-size: 18px;
 	color: #636363;
 }
 
@@ -1114,7 +1111,7 @@ section {
 	width: 210px;
 	height: 52px;
 	border: solid 2px #c4ab9f;
-	font-size: 16px;
+	font-size: 20px;
 	color: #FFFFFF;
 	padding-left: 25px;
 	outline: none;
@@ -1136,7 +1133,7 @@ section {
 	width: 210px;
 	height: 52px;
 	border: solid 2px #c4ab9f;
-	font-size: 16px;
+	font-size: 20px;
 	color: #FFFFFF;
 	padding-left: 25px;
 	outline: none;
@@ -1200,9 +1197,9 @@ section {
 }
 
 .footer_contact_title {
-	width: 65px;
+	width: 70px;
 	height: 21px;
-	font-size: 16px;
+	font-size: 18px;
 	color: #FFFFFF;
 	line-height: 21px;
 	background: #c49a8f;
@@ -1211,7 +1208,7 @@ section {
 }
 
 .footer_contact_text {
-	font-size: 16px;
+	font-size: 18px;
 	color: #FFFFFF;
 	line-height: 21px;
 }
@@ -1255,14 +1252,14 @@ section {
 }
 
 .test_info span {
-	font-size: 16px;
+	font-size: 20px;
 	color: #636363;
 }
 
 #logoInsta {
-	filter: brightness(93%);
+	filter: brightness(80%);
 	transition: all ease-in-out 0.3s;
-	width: 64px;
+	width: 48px;
 
 }
 
@@ -1272,9 +1269,9 @@ section {
 }
 
 #logoFaceb {
-	filter: brightness(93%);
+	filter: brightness(80%);
 	transition: all ease-in-out 0.3s;
-	width: 64px;
+	width: 48px;
 
 }
 
@@ -1295,7 +1292,8 @@ section {
 
 .menu-item .menu-price {
 	font-family: "Playfair Display", serif;
-	font-size: 24px;
+	font-size: 18px;
+	color: #dca44a;
 }
 
 
@@ -1351,7 +1349,7 @@ section {
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item>.nav-link {
-	font-size: 16px;
+	font-size: 20px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	padding-left: 20px;

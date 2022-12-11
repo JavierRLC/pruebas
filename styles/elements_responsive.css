@@ -243,7 +243,7 @@
 	.accordion
 	{
 		height: 40px;
-		font-size: 16px;
+		font-size: 20px;
 	}
 	.accordion_panel p
 	{
@@ -252,7 +252,7 @@
 	.tab
 	{
 		height: 40px;
-		font-size: 16px;
+		font-size: 20px;
 		line-height: 36px;
 	}
 	.tab_image

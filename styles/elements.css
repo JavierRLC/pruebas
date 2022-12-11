@@ -71,7 +71,7 @@ ul
 p
 {
 	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	line-height: 1.875;
 	font-weight: 400;
 	color: #636363;
@@ -390,7 +390,7 @@ section
 }
 .main_nav ul li a
 {
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 700;
 	color: #FFFFFF;
 	text-transform: uppercase;
@@ -407,7 +407,7 @@ section
 	padding-right: 20px;
 	text-align: center;
 	border: solid 2px #FFFFFF;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 700;
 	color: #FFFFFF;
 }
@@ -569,7 +569,7 @@ section
 	padding-right: 20px;
 	text-align: center;
 	border: solid 2px #FFFFFF;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 700;
 	color: #FFFFFF;
 	white-space: nowrap;
@@ -790,7 +790,7 @@ section
 }
 .accordion_panel p
 {
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 500;
 	padding-top: 25px;
 	padding-left: 3px;
@@ -1060,7 +1060,7 @@ section
 	width: 210px;
 	height: 52px;
 	border: solid 2px #c4ab9f;
-	font-size: 16px;
+	font-size: 20px;
 	color: #FFFFFF;
 	padding-left: 25px;
 	outline: none;
@@ -1082,7 +1082,7 @@ section
 	width: 210px;
 	height: 52px;
 	border: solid 2px #c4ab9f;
-	font-size: 16px;
+	font-size: 20px;
 	color: #FFFFFF;
 	padding-left: 25px;
 	outline: none;
@@ -1149,7 +1149,7 @@ section
 {
 	width: 65px;
 	height: 21px;
-	font-size: 16px;
+	font-size: 20px;
 	color: #FFFFFF;
 	line-height: 21px;
 	background: #c49a8f;
@@ -1158,7 +1158,7 @@ section
 }
 .footer_contact_text
 {
-	font-size: 16px;
+	font-size: 20px;
 	color: #FFFFFF;
 	line-height: 21px;
 }
