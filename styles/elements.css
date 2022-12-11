@@ -582,7 +582,7 @@ section
 .home
 {
 	width: 100%;
-	height: 524px;
+	height: 100vh;
 }
 .home_container
 {
