@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+
+.testimonials
+{
+	width: 100%;
+	padding-top: 106px;
+	padding-bottom: 115px;
+}
+.testimonials .section_title
+{
+	margin-top: 6px;
+}
+.testimonials_row
+{
+	margin-top: 28px;
+}
+.quote
+{
+	width: 25px;
+	height: 17px;
+}
+.quote img
+{
+	max-width: 100%;
+}
+.test_text
+{
+	margin-top: 23px;
+}
+.test_info
+{
+	font-size: 18px;
+	color: #232323;
+	margin-top: 43px;
+}
+.test_info span
+{
+	font-size: 16px;
+	color: #636363;
+}
