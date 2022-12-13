@@ -1455,3 +1455,17 @@ section {
 	left: 0;
 	right: 0;
 }
+
+
+  
+  .ftco-custom-gutters .ftco-thumbnail img {
+	transition: all ease-in-out 0.4s;
+  }
+  
+  .ftco-custom-gutters .ftco-thumbnail:hover img {
+	transform: scale(1.1);
+  }
+
+  #section-menu {
+	  background-color: rgba(220, 164, 74, 0.05);
+  }
