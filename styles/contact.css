@@ -42,7 +42,7 @@
 	padding-top: 39px;
 	padding-bottom: 41px;
 	margin-top: 38px;
-	border: solid 2px #c49a8f;
+	border: solid 2px #DCA44A;
 }
 .contact_list_content
 {
@@ -95,7 +95,7 @@
 }
 .contact_social ul li a i:hover
 {
-	color: #c4ab9f;
+	color: #DCA44A;
 }
 .google_map_row
 {

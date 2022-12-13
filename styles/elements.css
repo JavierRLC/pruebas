@@ -279,7 +279,7 @@ section
 .page_subtitle
 {
 	font-family: 'Edward', sans-serif;
-	color: #b49383;
+	color: #DCA44A;
 	line-height: 0.75;
 }
 .button
@@ -294,7 +294,7 @@ section
 {
 	display: block;
 	font-size: 18px;
-	color: #b49383;
+	color: #DCA44A;
 	line-height: 44px;
 }
 .button:hover
@@ -397,7 +397,7 @@ section
 }
 .main_nav ul li a:hover
 {
-	color: #b49383;
+	color: #DCA44A;
 }
 .reservations_phone
 {
@@ -1152,7 +1152,7 @@ section
 	font-size: 20px;
 	color: #FFFFFF;
 	line-height: 21px;
-	background: #c49a8f;
+	background: #DCA44A;
 	padding-left: 8px;
 	margin-right: 11px;
 }
