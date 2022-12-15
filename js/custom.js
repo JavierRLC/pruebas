@@ -1,186 +1,117 @@
-/* JS Document */
+(function ($) {
 
-/******************************
+  "use strict";
 
-[Table of Contents]
-
-1. Vars and Inits
-2. Set Header
-3. Init Menu
-4. Init Video
-5. Init Date Picker
-6. Init Time Picker
+    // PRE LOADER
+    $(window).load(function(){
+      $('.preloader').fadeOut(1000); // set duration in brackets    
+    });
 
 
-******************************/
+    // MENU
+    $('.navbar-collapse a').on('click',function(){
+      $(".navbar-collapse").collapse('hide');
+    });
 
-$(document).ready(function()
-{
-	"use strict";
+    $(window).scroll(function() {
+      if ($(".navbar").offset().top > 50) {
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
+          } else {
+            $(".navbar-fixed-top").removeClass("top-nav-collapse");
+          }
+    });
 
-	/* 
 
-	1. Vars and Inits
+    // SLIDER
+    $('.owl-carousel').owlCarousel({
+      animateOut: 'fadeOut',
+      items:1,
+      loop:true,
+      autoplayHoverPause: false,
+      autoplay: true,
+      smartSpeed: 1000,
+    })
 
-	*/
 
-	var header = $('.header');
-	var hamburgerBar = $('.hamburger_bar');
-	var hamburger = $('.hamburger');
+    // PARALLAX EFFECT
+    $.stellar({
+      horizontalScrolling: false,
+    }); 
 
-	setHeader();
 
-	$(window).on('resize', function()
-	{
-		setHeader();
+    // MAGNIFIC POPUP
+    $('.image-popup').magnificPopup({
+        type: 'image',
+        removalDelay: 300,
+        mainClass: 'mfp-with-zoom',
+        gallery:{
+          enabled:true
+        },
+        zoom: {
+        enabled: true, // By default it's false, so don't forget to enable it
 
-		setTimeout(function()
-		{
-			$(window).trigger('resize.px.parallax');
-		}, 375);
-	});
+        duration: 300, // duration of the effect, in milliseconds
+        easing: 'ease-in-out', // CSS transition easing function
 
-	$(document).on('scroll', function()
-	{
-		setHeader();
-	});
+        // The "opener" function should return the element from which popup will be zoomed in
+        // and to which popup will be scaled down
+        // By defailt it looks for an image tag:
+        opener: function(openerElement) {
+        // openerElement is the element on which popup was initialized, in this case its <a> tag
+        // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+        return openerElement.is('img') ? openerElement : openerElement.find('img');
+        }
+      }
+    });  
 
-	initVideo();
-	initDatePicker();
-	initTimePicker();
-	initMenu();
+/*
+    // CONTACT FORM
+    $("#contact-form").submit(function (e) {
+      e.preventDefault();
+      var name = $("#cf-name").val();
+      var email = $("#cf-email").val();
+      var subject = $("#cf-subject").val();
+      var message = $("#cf-message").val();
+      var dataString = 'name=' + name + '&email=' + email + '&subject=' + subject + '&message=' + message;
 
-	/* 
+      function isValidEmail(emailAddress) {
+          var pattern = new RegExp(/^((([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+(\.([a-z]|\d|[!#\$%&'\*\+\-\/=\?\^_`{\|}~]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])+)*)|((\x22)((((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(([\x01-\x08\x0b\x0c\x0e-\x1f\x7f]|\x21|[\x23-\x5b]|[\x5d-\x7e]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(\\([\x01-\x09\x0b\x0c\x0d-\x7f]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))))*(((\x20|\x09)*(\x0d\x0a))?(\x20|\x09)+)?(\x22)))@((([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|\d|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.)+(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])|(([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])([a-z]|\d|-|\.|_|~|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])*([a-z]|[\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF])))\.?$/i);
+          return pattern.test(emailAddress);
+      };
+      if (isValidEmail(email) && (message.length > 1) && (name.length > 1)) {
+          $.ajax({
+              type: "POST",
+              url: "email.php",
+              data: dataString,
+              success: function () {
+                  $('.text-success').fadeIn(1000);
+                  $('.text-danger').fadeOut(500);
+              }
+          });
+      }
+      else {
+          $('.text-danger').fadeIn(1000);
+          $('.text-success').fadeOut(500);
+      }
+      return false;
+    });
 
-	2. Set Header
+*/
 
-	*/
 
-	function setHeader()
-	{
-		if($(window).scrollTop() > 91)
-		{
-			header.addClass('scrolled');
-			hamburgerBar.addClass('scrolled');
-		}
-		else
-		{
-			header.removeClass('scrolled');
-			hamburgerBar.removeClass('scrolled');
-		}
-	}
+    // SMOOTHSCROLL
+    $(function() {
+      $('.custom-navbar a, #home a').on('click', function(event) {
+        var $anchor = $(this);
+          $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top - 49
+          }, 1000);
+            event.preventDefault();
+      });
+    });  
 
-	/* 
 
-	3. Init Menu
+    // WOW ANIMATION
+    new WOW({ mobile: false }).init();
 
-	*/
-
-	function initMenu()
-	{
-		if($('.menu').length)
-		{
-			var menu = $('.menu');
-			hamburger.on('click', function()
-			{
-				hamburger.toggleClass('active');
-				menu.toggleClass('active');
-			});
-		}
-	}
-
-	/* 
-
-	4. Init Video
-
-	*/
-
-	function initVideo()
-	{
-		$(".vimeo").colorbox(
-		{
-			iframe:true,
-			innerWidth:640,
-			innerHeight:409,
-			maxWidth: '90%'
-		});
-	}
-
-	/* 
-
-	5. Init Date Picker
-
-	*/
-
-	function initDatePicker()
-	{
-		var dp = $('#datepicker');
-		var date = new Date();
-		var dateM = date.getMonth() + 1;
-		var dateD = date.getDate();
-		var dateY = date.getFullYear();
-		var dateFinal = dateM + '/' + dateD + '/' + dateY;
-		dp.val(dateFinal);
-		dp.datepicker();
-	}
-
-	/* 
-
-	6. Init Time Picker
-
-	*/
-
-	function initTimePicker()
-	{
-		$('.timepicker').timepicker(
-		{
-		    interval: 60,
-		    minTime: '10',
-		    maxTime: '6:00pm',
-		    defaultTime: '11',
-		    startTime: '10:00',
-		    dynamic:  true,
-		    dropdown: true,
-		    scrollbar: true
-		});
-	}
-
-	function initTestSlider()
-	{
-		if($('.test_slider').length)
-		{
-			var testSlider = $('.test_slider');
-			testSlider.owlCarousel(
-			{
-				items:1,
-				loop:true,
-				autoplay:true,
-				dots:false,
-				nav:false,
-				smartSpeed:1200
-			});
-		}
-	}
-
-		// magnific popup
-		$('.image-popup').magnificPopup({
-			type: 'image',
-			closeOnContentClick: true,
-			closeBtnInside: false,
-			fixedContentPos: true,
-			mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
-			 gallery: {
-			  enabled: true,
-			  navigateByImgClick: true,
-			  preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-			},
-			image: {
-			  verticalFit: true
-			},
-			zoom: {
-			  enabled: true,
-			  duration: 300 // don't foget to change the duration also in CSS
-			}
-		  });
-
-});
+})(jQuery);
