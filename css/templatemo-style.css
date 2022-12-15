@@ -97,7 +97,8 @@
   }
 
   .overlay {
-    background: rgba(0,0,0,0.5);
+    background: url('../images/img/testimonial/latere32.jpg') center center no-repeat;
+    background-size: cover;
     position: absolute;
     top: 0;
     right: 0;
@@ -657,8 +658,19 @@
 
   #testimonial {
     background: url('../images/img/testimonial/latere32.jpg') center center no-repeat;
+    opacity: 0.9;
     background-size: cover;
   }
+
+  #testimonial:before {
+    content: "";
+    background: rgb(0, 0, 0);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 
   #testimonial .owl-dots {
     position: relative;
