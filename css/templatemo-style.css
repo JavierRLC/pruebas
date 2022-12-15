@@ -1,10 +1,4 @@
-/*
 
-Eatery Cafe Template 
-
-http://www.templatemo.com/tm-515-eatery
-
-*/
 
   @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
@@ -72,7 +66,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   a:hover, a:active, a:focus {
-    color: #ce3232;
+    color: #5888A2;
     outline: none;
   }
 
@@ -120,6 +114,8 @@ http://www.templatemo.com/tm-515-eatery
 
   #team, 
   #menu,
+  #gallery,
+  #card,
   #testimonial {
     text-align: center;
   }
@@ -142,7 +138,7 @@ http://www.templatemo.com/tm-515-eatery
   -----------------------------------------*/
 
   .section-btn {
-    background: #ce3232;
+    background: #5888A2;
     border-radius: 0;
     border: 0;
     color: #f9f9f9;
@@ -221,7 +217,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .custom-navbar .navbar-brand span {
-    color: #ce3232;
+    color: #5888A2;
   }
 
   .top-nav-collapse {
@@ -270,7 +266,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .custom-navbar .nav li a:hover {
     background: transparent;
-    color: #ce3232;
+    color: #5888A2;
   }
 
   .custom-navbar .navbar-nav > li > a:hover,
@@ -280,7 +276,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #ce3232;
+    color: #5888A2;
   }
 
   .custom-navbar .navbar-toggle {
@@ -403,15 +399,19 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .slider .item-first {
-    background-image: url(../images/slider-image1.jpg);
+    background-image: url(../images/img/latere.jpg);
   }
 
   .slider .item-second {
-    background-image: url(../images/slider-image2.jpg);
+    background-image: url(../images/img/latere34.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
   }
 
   .slider .item-third {
-    background-image: url(../images/slider-image3.jpg);
+    background-image: url(../images/img/latere20.jpg);
+    background-size: cover;
   }
 
   .slider .item-second .section-btn {
@@ -429,7 +429,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .slider .item-third .section-btn:hover,
   .slider .item-third .section-btn:focus {
-    background: #ce3232;
+    background: #5888A2;
     border-color: transparent;
     color: #ffffff;
   }
@@ -456,13 +456,11 @@ http://www.templatemo.com/tm-515-eatery
     position: absolute;
   }
 
-
-
   /*---------------------------------------
       TEAM              
   -----------------------------------------*/
 
-  #team {
+  #team, #card {
     background: #f9f9f9;
   }
 
@@ -544,7 +542,7 @@ http://www.templatemo.com/tm-515-eatery
      MENU              
   -----------------------------------------*/
 
-  #menu {
+  #menu, #gallery {
     padding-bottom: 0;
   }
 
@@ -552,7 +550,16 @@ http://www.templatemo.com/tm-515-eatery
     width: 100%;
   }
 
+  #gallery .container {
+    width: 100%;
+  }
+
   #menu .col-md-4 {
+    margin: 0;
+    padding: 0;
+  }
+
+  #gallery .col-md-4 {
     margin: 0;
     padding: 0;
   }
@@ -567,6 +574,13 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   #menu .menu-thumb {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    width: 102%;
+  }
+
+  #gallery .menu-thumb {
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -642,7 +656,7 @@ http://www.templatemo.com/tm-515-eatery
   -----------------------------------------*/
 
   #testimonial {
-    background: url('../images/testimonial-bg.jpg') center center no-repeat;
+    background: url('../images/img/testimonial/latere32.jpg') center center no-repeat;
     background-size: cover;
   }
 
@@ -728,7 +742,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   #contact button#cf-submit {
-    background: #ce3232;
+    background: #5888A2;
     border-radius: 0;
     border: 0;
     color: #ffffff;
@@ -780,7 +794,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .footer-open-hour {
-    background: #ce3232;
+    background: #5888A2;
     background: url('../images/footer-open-hour-bg.jpg') center center no-repeat;
     background-size: cover;
     border-radius: 20px;
@@ -838,7 +852,7 @@ http://www.templatemo.com/tm-515-eatery
 
   .social-icon li a {
     border-radius: 100px;
-    color: #ce3232;
+    color: #5888A2;
     font-size: 15px;
     width: 35px;
     height: 35px;
@@ -850,9 +864,106 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .social-icon li a:hover {
-    background: #ce3232;
+    background: #5888A2;
     color: #ffffff;
   }
+
+  /*--------------------------------------------------------------
+# Menu Section
+--------------------------------------------------------------*/
+.menu #menu-flters {
+  padding: 0;
+  margin: 0 auto 0 auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.menu #menu-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 12px 10px 12px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  color: #353535;
+  margin-bottom: 10px;
+  transition: all ease-in-out 0.3s;
+  border-radius: 50px;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+}
+
+.menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
+  color: #5888A2;
+}
+
+.menu #menu-flters li:last-child {
+  margin-right: 0;
+}
+
+.menu .menu-item {
+  margin-top: 50px;
+}
+
+.menu .menu-img {
+  width: 70px;
+  border-radius: 50%;
+  float: left;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+}
+
+.menu .menu-content {
+  margin-left: 85px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.menu .menu-content::after {
+  content: "......................................................................"
+ "...................................................................."
+ "....................................................................";
+  position: absolute;
+  left: 20px;
+  right: 0;
+  top: -4px;
+  z-index: 1;
+  color: #353535;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.menu .menu-content a {
+  padding-right: 10px;
+  background: white;
+  position: relative;
+  z-index: 3;
+  font-weight: 700;
+  color: #353535;
+  transition: 0.3s;
+}
+
+.menu .menu-content a:hover {
+  color: #cda45e;
+}
+
+.menu .menu-content span {
+  background: white;
+  position: relative;
+  z-index: 3;
+  padding: 0 10px;
+  font-weight: 600;
+  color: #5888A2;
+}
+
+.menu .menu-ingredients {
+  margin-left: 85px;
+  font-style: italic;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+}
 
 
 
