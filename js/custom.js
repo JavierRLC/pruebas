@@ -7,6 +7,19 @@
     $('.preloader').fadeOut(1000); // set duration in brackets    
   });
 
+  // Scroll
+  $(function() {
+
+    var $body = $(document);
+    $body.bind('scroll', function() {
+        // "Desactivar" el scroll horizontal
+        if ($body.scrollLeft() !== 0) {
+            $body.scrollLeft(0);
+        }
+    });
+
+}); 
+
 
   // MENU
   $('.navbar-collapse a').on('click', function () {
