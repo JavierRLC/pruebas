@@ -1049,9 +1049,8 @@ footer .social-icon {
 }
 
 @media only screen and (max-width: 767px) {
-  body {
-    
-  width: 96%!important;
+  body {    
+    width: 96%!important;
   }
   h1 {
     font-size: 2.5em;
