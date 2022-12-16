@@ -1050,7 +1050,7 @@ footer .social-icon {
 
 @media only screen and (max-width: 767px) {
   body {    
-    width: 96%!important;
+    width: 93%!important;
   }
   h1 {
     font-size: 2.5em;
@@ -1126,6 +1126,9 @@ footer .social-icon {
 @media only screen and (max-width: 580px) {
   h1 {
     font-size: 2.1em;
+  }
+  body {    
+    width: 93%!important;
   }
 
   h2 {
