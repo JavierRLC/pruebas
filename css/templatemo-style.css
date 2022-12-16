@@ -4,6 +4,7 @@ body {
   background: #ffffff;
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
+  width: 100%!important;
 }
 
 
