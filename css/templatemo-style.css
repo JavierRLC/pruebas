@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 html{
+  width: 100%!important;
   margin: 0!important;
+  overflow-x: hidden;
   padding: 0!important;
 }
 
 body {
   background: #ffffff;
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 
