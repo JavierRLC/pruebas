@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
+html{
+  margin: 0!important;
+  padding: 0!important;
+}
+
 body {
   background: #ffffff;
   font-family: 'Montserrat', sans-serif;
@@ -1049,9 +1054,6 @@ footer .social-icon {
 }
 
 @media only screen and (max-width: 767px) {
-  body {    
-    width: 93%!important;
-  }
   h1 {
     font-size: 2.5em;
   }
@@ -1127,10 +1129,6 @@ footer .social-icon {
   h1 {
     font-size: 2.1em;
   }
-  body {    
-    width: 93%!important;
-  }
-
   h2 {
     font-size: 1.8em;
   }
