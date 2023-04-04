@@ -1175,3 +1175,10 @@ footer .social-icon {
     top: 60%;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .rowPokeCustom {
+    display: flex!important;
+    align-items: stretch!important;
+  }
+}
