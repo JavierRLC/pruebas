@@ -135,6 +135,7 @@ section {
 
 #team,
 #menu,
+#menuCustom,
 #gallery,
 #card,
 #testimonial {
@@ -586,6 +587,7 @@ section {
   -----------------------------------------*/
 
 #menu,
+#menuCustom,
 #gallery {
   padding-bottom: 0;
 }
@@ -594,11 +596,20 @@ section {
   width: 100%;
 }
 
+#menuCustom .container {
+  width: 100%;
+}
+
 #gallery .container {
   width: 100%;
 }
 
 #menu .col-md-4 {
+  margin: 0;
+  padding: 0;
+}
+
+#menuCustom .col-md-4 {
   margin: 0;
   padding: 0;
 }
@@ -618,6 +629,13 @@ section {
 }
 
 #menu .menu-thumb {
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  width: 102%;
+}
+
+#menuCustom .menu-thumb {
   overflow: hidden;
   position: relative;
   cursor: pointer;
@@ -917,6 +935,38 @@ footer .social-icon {
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
+.menu #menuCustom-flters {
+  padding: 0;
+  margin: 0 auto 0 auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.menu #menuCustom-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 12px 10px 12px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  color: #353535;
+  margin-bottom: 10px;
+  transition: all ease-in-out 0.3s;
+  border-radius: 50px;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+}
+
+.menu #menuCustom-flters li:hover,
+.menu #menuCustom-flters li.filter-active {
+  color: #007200;
+}
+
+.menu #menuCustom-flters li:last-child {
+  margin-right: 0;
+}
+
 .menu #menu-flters {
   padding: 0;
   margin: 0 auto 0 auto;
@@ -969,9 +1019,10 @@ footer .social-icon {
 }
 
 .menu .menu-content::after {
-  content: "......................................................................"
-    "...................................................................."
-    "....................................................................";
+  content: "............................................................................."
+  "............................................................................."
+  "............................................................................."
+  ".............................................................................";
   position: absolute;
   left: 20px;
   right: 0;
@@ -983,7 +1034,7 @@ footer .social-icon {
 
 .menu .menu-content a {
   padding-right: 10px;
-  /* background: white; */
+  background: #d4c0cb;
   position: relative;
   z-index: 3;
   font-weight: 700;
@@ -997,7 +1048,7 @@ footer .social-icon {
 
 .menu .menu-contenido a {
   padding-right: 10px;
-  /* background: white; */
+  /* background: #d4c0cb; */
   position: relative;
   z-index: 3;
   font-weight: 700;
@@ -1010,7 +1061,7 @@ footer .social-icon {
 }
 
 .menu .menu-content span {
-  /* background: white; */
+  background: #d4c0cb;
   position: relative;
   z-index: 3;
   padding: 0 10px;
@@ -1078,6 +1129,10 @@ footer .social-icon {
   }
 
   #menu .menu-thumb {
+    width: 103%;
+  }
+
+  #menuCustom .menu-thumb {
     width: 103%;
   }
 
@@ -1205,21 +1260,42 @@ footer .social-icon {
 */
 
 .bg1{
-  background-color: rgba(142, 236, 245, 0.5)!important;
+  background-color: #b7efe6!important;
 }
 
 .bg2{
-  background-color: rgba(255, 207, 210, 0.5)!important;
+  background-color: #fcd9d5!important;
 }
 
 .bg3{
-  background-color: rgba(241, 192, 232, 0.5)!important;
+  background-color: #d4c0cb!important;
 }
 
 .bg4{
-  background-color: rgba(253, 255, 182, 0.5)!important;
+  background-color: #fcf8b9!important;
 }
 
 .bg5{
-  background-color: rgba(121, 226, 121, 0.3)!important;
+  background-color: #e2e2e0!important;
 }
+/* 
+.bg1{
+  background-color: rgb(142, 236, 245)!important;
+}
+
+.bg2{
+  background-color: rgb(255, 207, 210)!important;
+}
+
+.bg3{
+  background-color: rgb(241, 192, 232)!important;
+}
+
+.bg4{
+  background-color: rgb(253, 255, 182)!important;
+}
+
+.bg5{
+  background-color: rgb(121, 226, 121)!important;
+}
+ */
