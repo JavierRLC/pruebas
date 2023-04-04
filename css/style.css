@@ -1181,4 +1181,8 @@ footer .social-icon {
     display: flex!important;
     align-items: stretch!important;
   }
+
+  .paso1col {
+    height: 758px!important;
+  }
 }
