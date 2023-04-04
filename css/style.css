@@ -1024,6 +1024,13 @@ footer .social-icon {
   color: #353535;
 }
 
+.menu-ingredients {
+  text-align: left!important;  
+}
+
+.menu-item {
+  width: 100%!important;
+}
 
 
 /*---------------------------------------
