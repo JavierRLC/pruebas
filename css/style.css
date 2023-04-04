@@ -99,7 +99,7 @@ a:focus {
 }
 
 .section-title h4 {
-  color: #bfbdbd;
+  color: #353535;
   font-size: 15px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -571,7 +571,7 @@ section {
 }
 
 .team-info p {
-  color: #bfbdbd;
+  color: #353535;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -1219,4 +1219,8 @@ footer .social-icon {
 
 .bg4{
   background-color: rgba(253, 255, 182, 0.5)!important;
+}
+
+.bg5{
+  background-color: rgba(121, 226, 121, 0.3)!important;
 }
