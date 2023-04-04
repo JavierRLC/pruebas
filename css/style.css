@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
-html{
-  width: 100%!important;
-  margin: 0!important;
-  padding: 0!important;
+html {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 body {
@@ -984,7 +984,7 @@ footer .social-icon {
 
 .menu .menu-content a {
   padding-right: 10px;
-  background: white;
+  /* background: white; */
   position: relative;
   z-index: 3;
   font-weight: 700;
@@ -995,9 +995,10 @@ footer .social-icon {
 .menu .menu-contenido a:hover {
   color: #007200;
 }
+
 .menu .menu-contenido a {
   padding-right: 10px;
-  background: white;
+  /* background: white; */
   position: relative;
   z-index: 3;
   font-weight: 700;
@@ -1010,7 +1011,7 @@ footer .social-icon {
 }
 
 .menu .menu-content span {
-  background: white;
+  /* background: white; */
   position: relative;
   z-index: 3;
   padding: 0 10px;
@@ -1026,11 +1027,11 @@ footer .social-icon {
 }
 
 .menu-ingredients {
-  text-align: left!important;  
+  text-align: left !important;
 }
 
 .menu-itemwidth {
-  width: 100%!important;
+  width: 100% !important;
 }
 
 
@@ -1175,6 +1176,7 @@ footer .social-icon {
   h1 {
     font-size: 2.1em;
   }
+
   h2 {
     font-size: 1.8em;
   }
@@ -1186,11 +1188,35 @@ footer .social-icon {
 
 @media screen and (min-width: 1200px) {
   .rowPokeCustom {
-    display: flex!important;
-    align-items: stretch!important;
+    display: flex !important;
+    align-items: stretch !important;
   }
 
   .paso1col {
-    height: 758px!important;
+    height: 758px !important;
   }
+}
+
+
+/*
+          8eecf5
+          ffcfd2
+          f1c0e8
+          fdffb6
+*/
+
+.bg1{
+  background-color: rgba(142, 236, 245, 0.5)!important;
+}
+
+.bg2{
+  background-color: rgba(255, 207, 210, 0.5)!important;
+}
+
+.bg3{
+  background-color: rgba(241, 192, 232, 0.5)!important;
+}
+
+.bg4{
+  background-color: rgba(253, 255, 182, 0.5)!important;
 }
