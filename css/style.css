@@ -107,7 +107,7 @@ a:focus {
 }
 
 .overlay {
-  background: url('../images/img/galeria/fb/mp23.png') center center no-repeat;
+  background: url('../images/img/galeria/fb/Maia/maiapoke5.jpg') center center no-repeat;
   background-size: cover;
   position: absolute;
   top: 0;
@@ -450,7 +450,7 @@ section {
 /*  */
 
 .slider .item-third {
-  background-image: url(../images/img/galeria/fb/mp57.png);
+  background-image: url(../images/img/galeria/fb/Maia/maiapoke4.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -718,7 +718,7 @@ section {
   -----------------------------------------*/
 
 #testimonial {
-  background: url('../images/img/testimonial/latere32.jpg') center center no-repeat;
+  background: url('../images/img/galeria/fb/mp1.png') center center no-repeat;
   opacity: 0.9;
   background-size: cover;
 }
