@@ -1299,3 +1299,15 @@ footer .social-icon {
   background-color: rgb(121, 226, 121)!important;
 }
  */
+
+ .deliveryIcons {
+  width: 7em;
+  border-radius: 0px 10px 0px 10px;
+  transition: 0.4s all;
+ }
+
+ .deliveryIcons:hover {
+  filter: brightness(50%);
+  border-radius:10px;
+  transition: 0.4s all;
+ }
