@@ -1302,12 +1302,11 @@ footer .social-icon {
 
  .deliveryIcons {
   width: 7em;
-  border-radius: 0px 10px 0px 10px;
+  border-radius: 0px 15px 0px 15px;
   transition: 0.4s all;
  }
 
  .deliveryIcons:hover {
-  filter: brightness(50%);
-  border-radius:10px;
+  border-radius:15px;
   transition: 0.4s all;
  }
