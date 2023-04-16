@@ -76,7 +76,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #007200;
+  color: #353535;/*OldGreen*/
   outline: none;
 }
 
@@ -160,10 +160,10 @@ section {
   -----------------------------------------*/
 
 .section-btn {
-  background: #007200;
+  background: #fcf8b9;/*Utilizado*/
   border-radius: 0;
   border: 0;
-  color: #f9f9f9;
+  color: #353535;
   font-size: inherit;
   font-weight: normal;
   padding: 10px 25px;
@@ -243,7 +243,7 @@ section {
 }
 
 .custom-navbar .navbar-brand span {
-  color: #007200;
+  color: #353535;/*OldGreen*/
 }
 
 .top-nav-collapse {
@@ -266,8 +266,8 @@ section {
 }
 
 .custom-navbar .navbar-nav.navbar-right .section-btn:hover {
-  background: #292929;
-  color: #ffffff;
+  background: #e6e6e6;
+  color: #353535;
 }
 
 .custom-navbar .navbar-nav.navbar-right .section-btn:focus {
@@ -293,7 +293,7 @@ section {
 
 .custom-navbar .nav li a:hover {
   background: transparent;
-  color: #007200;
+  color: #353535;/*OldGreen*/
 }
 
 .custom-navbar .navbar-nav>li>a:hover,
@@ -303,7 +303,7 @@ section {
 
 .custom-navbar .nav li.active>a {
   background-color: transparent;
-  color: #007200;
+  color: #353535;/*OldGreen*/
 }
 
 .custom-navbar .navbar-toggle {
@@ -459,7 +459,8 @@ section {
 /*  */
 
 .slider .item-second .section-btn {
-  background: #007200;
+  background: #fcf8b9;/*Utilizado*/
+  color: #353535;
 }
 
 .slider .item-second .section-btn:hover {
@@ -467,7 +468,9 @@ section {
 }
 
 .slider .item-third .section-btn {
-  background: #007200;
+  
+  background: #fcf8b9;/*Utilizado*/
+  color: #353535;
 }
 
 .slider .item-third .section-btn:hover,
@@ -805,7 +808,7 @@ section {
 }
 
 #contact button#cf-submit {
-  background: #007200;
+  background: #353535;/*OldGreen*/
   border-radius: 0;
   border: 0;
   color: #ffffff;
@@ -858,7 +861,7 @@ footer .social-icon {
 }
 
 .footer-open-hour {
-  background: #007200;
+  background: #353535;/*OldGreen*/
   background: url('../images/img/galeria/fb/mp8.png') center center no-repeat;
   background-size: cover;
   border-radius: 20px;
@@ -916,7 +919,7 @@ footer .social-icon {
 
 .social-icon li a {
   border-radius: 100px;
-  color: #007200;
+  color: #353535;/*OldGreen*/
   font-size: 15px;
   width: 35px;
   height: 35px;
@@ -928,7 +931,7 @@ footer .social-icon {
 }
 
 .social-icon li a:hover {
-  background: #007200;
+  background: #353535;/*OldGreen*/
   color: #ffffff;
 }
 
@@ -960,7 +963,7 @@ footer .social-icon {
 
 .menu #menuCustom-flters li:hover,
 .menu #menuCustom-flters li.filter-active {
-  color: #007200;
+  color: #353535;/*OldGreen*/
 }
 
 .menu #menuCustom-flters li:last-child {
@@ -992,7 +995,7 @@ footer .social-icon {
 
 .menu #menu-flters li:hover,
 .menu #menu-flters li.filter-active {
-  color: #007200;
+  color: #353535;/*OldGreen*/
 }
 
 .menu #menu-flters li:last-child {
@@ -1043,7 +1046,7 @@ footer .social-icon {
 }
 
 .menu .menu-contenido a:hover {
-  color: #007200;
+  color: #353535;/*OldGreen*/
 }
 
 .menu .menu-contenido a {
@@ -1057,7 +1060,7 @@ footer .social-icon {
 }
 
 .menu .menu-content a:hover {
-  color: #007200;
+  color: #353535;/*OldGreen*/
 }
 
 .menu .menu-content span {
@@ -1066,7 +1069,7 @@ footer .social-icon {
   z-index: 3;
   padding: 0 10px;
   font-weight: 600;
-  color: #007200;
+  color: #353535;/*OldGreen*/
 }
 
 .menu .menu-ingredients {
@@ -1273,7 +1276,7 @@ footer .social-icon {
 
 /* Utilizado */
 .bg4{
-  background-color: #fcf8b9!important;
+  background-color: #fcf8b9;/*Utilizado*/
 }
 
 .bg5{
