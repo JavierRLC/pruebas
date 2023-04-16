@@ -1034,7 +1034,7 @@ footer .social-icon {
 
 .menu .menu-content a {
   padding-right: 10px;
-  background: #d4c0cb;
+  background: white;
   position: relative;
   z-index: 3;
   font-weight: 700;
@@ -1061,7 +1061,7 @@ footer .social-icon {
 }
 
 .menu .menu-content span {
-  background: #d4c0cb;
+  background: white;
   position: relative;
   z-index: 3;
   padding: 0 10px;
@@ -1271,6 +1271,7 @@ footer .social-icon {
   background-color: #d4c0cb!important;
 }
 
+/* Utilizado */
 .bg4{
   background-color: #fcf8b9!important;
 }
