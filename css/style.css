@@ -160,7 +160,7 @@ section {
   -----------------------------------------*/
 
 .section-btn {
-  background: #fcf8b9;/*Utilizado*/
+  background: white;/*Utilizado*/
   border-radius: 0;
   border: 0;
   color: #353535;
@@ -459,7 +459,7 @@ section {
 /*  */
 
 .slider .item-second .section-btn {
-  background: #fcf8b9;/*Utilizado*/
+  background: white;/*Utilizado*/
   color: #353535;
 }
 
@@ -469,7 +469,7 @@ section {
 
 .slider .item-third .section-btn {
   
-  background: #fcf8b9;/*Utilizado*/
+  background: white;/*Utilizado*/
   color: #353535;
 }
 
@@ -1278,7 +1278,7 @@ footer .social-icon {
 #fcf8b9
 */
 .bg4{
-  background-color: #fcf8b9;/*Utilizado*/
+  background-color: white;/*Utilizado*/
 }
 
 .bg5{
